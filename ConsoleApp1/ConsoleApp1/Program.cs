@@ -6,9 +6,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int a = 35;
+            int a = ++35;
             int b = 5;
             int d = a + b;
+
+            int deff = a + b + d ^ d;
             
             double bez = (a++*a++)/b;
 
@@ -17,6 +19,7 @@ namespace ConsoleApp1
             Console.WriteLine(d);
             Console.WriteLine(z);
             Console.WriteLine(bez);
+            Console.WriteLine(deff);
             Console.ReadKey();
 
         }
