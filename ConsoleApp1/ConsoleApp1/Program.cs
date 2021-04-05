@@ -10,7 +10,10 @@ namespace ConsoleApp1
             int b = 5;
             int d = a + b;
 
+            double z = --b + b++;
+
             Console.WriteLine(d);
+            Console.WriteLine(z);
             Console.ReadKey();
 
         }
