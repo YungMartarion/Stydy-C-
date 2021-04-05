@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int a = 3;
+            int a = ++3;
             int b = 5;
             int d = a + b;
             
