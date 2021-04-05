@@ -6,7 +6,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int a = 3;
+            int b = 5;
+            int d = a + b;
+
+            Console.WriteLine(d);
+            Console.ReadKey();
+
         }
     }
 }
